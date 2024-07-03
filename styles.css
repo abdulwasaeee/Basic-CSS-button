@@ -1,0 +1,20 @@
+.fancyButton{
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 10px;
+    color: white;
+    background-color:pink;
+    border: none;
+    border-radius:  8px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.fancyButton:hover{
+background-color: red;
+transition: all 0.5s;
+opacity: 0.8;
+transform: scale(1.3);
+
+}
